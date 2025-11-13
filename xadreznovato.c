@@ -17,6 +17,8 @@ int main() {
         tabuleiro[linha][coluna] = 'T';
     }
 
+
+
         //Movimento do Bispo.
     printf("O Bispo tem que mover 5 casa em diagonal superior à direita\n");
     scanf("%d", &movimento);
@@ -27,6 +29,8 @@ int main() {
         tabuleiro[linha][coluna] = 'B';
 
     }
+
+
 
         // movimento de Rainha
     printf("A Rainha tem que mover 8 casas à direita");
